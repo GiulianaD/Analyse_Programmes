@@ -90,6 +90,44 @@ public class JavaParser
     return true;
   }
 
+  private static void processFilesInFolder(File folder) {
+    System.out.println("Java Parser Version 1.7:  Reading from folder " + folder.getAbsolutePath());
+	File[] files = folder.listFiles();
+
+        if (files != null) {
+            for (File file : files) {
+                if (file.isDirectory()) {
+                    processFilesInFolder(file);
+                } else {
+                  if (file.getName().endsWith(".java")) { 
+                    processFile(file);
+                  }
+                }
+            }
+        } else {
+			System.out.println("Empty folder.");
+		}
+    
+  }
+
+  private static void processFile(File file) {
+	System.out.println("Java Parser Version 1.7:  Reading from file " + file.getAbsolutePath() + "...");
+    try {
+        JavaParser parser = new JavaParser(new java.io.FileInputStream(file));
+        parseInput(parser);
+    } catch (java.io.FileNotFoundException e) {
+        System.out.println("Java Parser Version 1.7:  File " + file.getAbsolutePath() + " not found.");
+    }
+ }
+  private static void parseInput(JavaParser parser) {
+	try {
+      parser.CompilationUnit();
+      System.out.println("Java Parser Version 1.7:  Java program parsed successfully.");
+    } catch (ParseException e) {
+      System.out.println(e.getMessage());
+      System.out.println("Java Parser Version 1.7:  Encountered errors during parse.");
+    }
+  }
   // Main method for testing, here is a one-liner bash script that can be ran from
   // the command line:
   // for f in /some/directory/full/of/java/files/*.java; do java -cp . JavaParser $f; done
@@ -98,14 +136,16 @@ public class JavaParser
     if (args.length == 0) {
       System.out.println("Java Parser Version 1.7:  Reading from standard input...");
       parser = new JavaParser(System.in);
+      parseInput(parser);
     } else if (args.length == 1) {
-      System.out.println("Java Parser Version 1.7:  Reading from file " + args[0] + "...");
-      try {
-        parser = new JavaParser(new java.io.FileInputStream(args[0]));
-      } catch (java.io.FileNotFoundException e) {
-        System.out.println("Java Parser Version 1.7:  File " + args[0] + " not found.");
-        return;
+      File file = new File(args[0]);
+
+      if (file.isDirectory()) {
+        processFilesInFolder(file);
+      } else {
+	      processFile(file);
       }
+      
     } else {
       System.out.println("Java Parser Version 1.7:  Usage is one of:");
       System.out.println("         java JavaParser < inputfile");
@@ -113,13 +153,7 @@ public class JavaParser
       System.out.println("         java JavaParser inputfile");
       return;
     }
-    try {
-      parser.CompilationUnit();
-      System.out.println("Java Parser Version 1.7:  Java program parsed successfully.");
-    } catch (ParseException e) {
-      System.out.println(e.getMessage());
-      System.out.println("Java Parser Version 1.7:  Encountered errors during parse.");
-    }
+    
   }
   
   
