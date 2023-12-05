@@ -1,0 +1,839 @@
+Class Name : ClientListener
+Class Parent : 
+Nombre d'associations : 15
+Associations : [MessageListener, Client, Message, DebuterPartieMsg, UpdateNBPlayersConnectedMsg, SendScoreArrayMsg, PerteConnexionMsg, JOptionPane, JDialog, Exception, UpdateScoreMsg, UpdatePositionMsg, UpdatePositionFromServerMsg, showPositionDialog, TerminerPartieMsg]
+
+Nombre d'attribut total : 0
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\ClientProxy\ClientProxy.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : ClientProxy
+Class Parent : 
+Nombre d'associations : 15
+Associations : [Client, Utilisateur, ClientProxy, String, DebuterPartieMsg, PerteConnexionMsg, UpdateNBPlayersConnectedMsg, UpdateScoreMsg, SendScoreArrayMsg, UpdatePositionMsg, TerminerPartieMsg, UpdatePositionFromServerMsg, ClientListener, ConnectionObserver, IOException]
+
+Nombre d'attribut total : 3
+--------------
+Nombre d'attribut de type simple : 1
+Pourcentage d'attribut de type simple : 33%
+----------
+Nombre d'attribut de référence : 2
+Pourcentage d'attribut de référence : 66%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 3
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\ClientProxy\ClientProxySingleton.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : ClientProxySingleton
+Class Parent : 
+Nombre d'associations : 1
+Associations : [ClientProxy]
+
+Nombre d'attribut total : 1
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 1
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 1
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\ClientProxy\ConnectionObserver.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : ConnectionObserver
+Class Parent : 
+Nombre d'associations : 3
+Associations : [ErrorListener, Client, Throwable]
+
+Nombre d'attribut total : 0
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\ClientProxy\showPositionDialog.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : showPositionDialog
+Class Parent : 
+Nombre d'associations : 10
+Associations : [JDialog, JLabel, Dimension, ActionListener, CloseThisWindow, Container, FlowLayout, JPanel, ImageIcon, JButton]
+
+Nombre d'attribut total : 3
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 3
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 3
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Class Name : CloseThisWindow
+Class Parent : 
+Nombre d'associations : 2
+Associations : [ActionListener, ActionEvent]
+
+Nombre d'attribut total : 0
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\ClientProxy\UpdatePositionMsg.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : UpdatePositionMsg
+Class Parent : AbstractMessage
+Nombre d'associations : 0
+Associations : []
+
+Nombre d'attribut total : 1
+--------------
+Nombre d'attribut de type simple : 1
+Pourcentage d'attribut de type simple : 100%
+----------
+Nombre d'attribut de référence : 0
+Pourcentage d'attribut de référence : 0%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 1
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\ClientProxy\UpdateScoreMsg.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : UpdateScoreMsg
+Class Parent : AbstractMessage
+Nombre d'associations : 1
+Associations : [String]
+
+Nombre d'attribut total : 2
+--------------
+Nombre d'attribut de type simple : 1
+Pourcentage d'attribut de type simple : 50%
+----------
+Nombre d'attribut de référence : 1
+Pourcentage d'attribut de référence : 50%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 2
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\enums\enums.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : enums
+Class Parent : 
+Nombre d'associations : 0
+Associations : []
+
+Nombre d'attribut total : 0
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\InputController\Input.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : Input
+Class Parent : JPanel
+Nombre d'associations : 9
+Associations : [KeyListener, MouseListener, BufferedImage, Cursor, Point, Graphics2D, Graphics, KeyEvent, MouseEvent]
+
+Nombre d'attribut total : 2
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 2
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 2
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Main\Connector.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : Connector
+Class Parent : JFrame
+Nombre d'associations : 10
+Associations : [SoundPlayer, Cadrage, String, JOptionPane, JDialog, Host, DebutePartieThread, Runnable, Connector, enums]
+
+Nombre d'attribut total : 1
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 1
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 1
+Pourcentage d'attribut public : 100%
+----------
+Nombre d'attribut private : 0
+Pourcentage d'attribut private : 0%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Main\Main.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : Main
+Class Parent : 
+Nombre d'associations : 2
+Associations : [String, ShowConnectorDialog]
+
+Nombre d'attribut total : 0
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Main\ShowConnectorDialog.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : ShowConnectorDialog
+Class Parent : 
+Nombre d'associations : 9
+Associations : [JFrame, JTextField, Dimension, ActionListener, RejoindrePartie, HebergePartie, Container, FlowLayout, JButton]
+
+Nombre d'attribut total : 3
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 3
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 3
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Class Name : RejoindrePartie
+Class Parent : 
+Nombre d'associations : 2
+Associations : [ActionListener, ActionEvent]
+
+Nombre d'attribut total : 0
+
+
+Class Name : RejoindrePartie
+Class Parent : 
+Nombre d'associations : 2
+Associations : [ActionListener, ActionEvent]
+
+Nombre d'attribut total : 0
+
+
+Class Name : HebergePartie
+Class Parent : 
+Nombre d'associations : 3
+Associations : [ActionListener, ActionEvent, String]
+
+Nombre d'attribut total : 0
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Main\SoundPlayer.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : SoundPlayer
+Class Parent : 
+Nombre d'associations : 5
+Associations : [Player, String, BufferedInputStream, Exception, Thread]
+
+Nombre d'attribut total : 2
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 2
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 2
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\MoteurJeu\Cadrage.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : Cadrage
+Class Parent : Input
+Nombre d'associations : 15
+Associations : [String, GameState, Moteur, BufferedImage, Thread, URL, IOException, Exception, Graphics2D, showPositionDialog, Point, KeyEvent, JOptionPane, JDialog, MouseEvent]
+
+Nombre d'attribut total : 13
+--------------
+Nombre d'attribut de type simple : 9
+Pourcentage d'attribut de type simple : 69%
+----------
+Nombre d'attribut de référence : 4
+Pourcentage d'attribut de référence : 30%
+----------
+Nombre d'attribut public : 5
+Pourcentage d'attribut public : 38%
+----------
+Nombre d'attribut private : 8
+Pourcentage d'attribut private : 61%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\MoteurJeu\DrawProjectile.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : DrawProjectile
+Class Parent : Thread
+Nombre d'associations : 5
+Associations : [BufferedImage, Graphics2D, Thread, Clock, Exception]
+
+Nombre d'attribut total : 15
+--------------
+Nombre d'attribut de type simple : 12
+Pourcentage d'attribut de type simple : 80%
+----------
+Nombre d'attribut de référence : 3
+Pourcentage d'attribut de référence : 20%
+----------
+Nombre d'attribut public : 6
+Pourcentage d'attribut public : 40%
+----------
+Nombre d'attribut private : 9
+Pourcentage d'attribut private : 60%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Class Name : Clock
+Class Parent : Thread
+Nombre d'associations : 1
+Associations : [Exception]
+
+Nombre d'attribut total : 0
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\MoteurJeu\Moteur.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : Moteur
+Class Parent : 
+Nombre d'associations : 19
+Associations : [String, Font, ArrayList, Pigeon, BufferedImage, enums, Thread, Message, UpdateScoreMsg, URL, IOException, Point, Rectangle, UpdatePositionMsg, Graphics2D, Exception, DrawProjectile, AffineTransform, AffineTransformOp]
+
+Nombre d'attribut total : 24
+--------------
+Nombre d'attribut de type simple : 16
+Pourcentage d'attribut de type simple : 66%
+----------
+Nombre d'attribut de référence : 8
+Pourcentage d'attribut de référence : 33%
+----------
+Nombre d'attribut public : 2
+Pourcentage d'attribut public : 8%
+----------
+Nombre d'attribut private : 22
+Pourcentage d'attribut private : 91%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\MoteurJeu\PlaySounds.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : PlaySounds
+Class Parent : Thread
+Nombre d'associations : 3
+Associations : [SoundPlayer, Thread, PlaySounds]
+
+Nombre d'attribut total : 3
+--------------
+Nombre d'attribut de type simple : 1
+Pourcentage d'attribut de type simple : 33%
+----------
+Nombre d'attribut de référence : 2
+Pourcentage d'attribut de référence : 66%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 3
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Pigeon\Pigeon.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : Pigeon
+Class Parent : 
+Nombre d'associations : 4
+Associations : [enums, BufferedImage, Boolean, Graphics2D]
+
+Nombre d'attribut total : 12
+--------------
+Nombre d'attribut de type simple : 9
+Pourcentage d'attribut de type simple : 75%
+----------
+Nombre d'attribut de référence : 3
+Pourcentage d'attribut de référence : 25%
+----------
+Nombre d'attribut public : 6
+Pourcentage d'attribut public : 50%
+----------
+Nombre d'attribut private : 6
+Pourcentage d'attribut private : 50%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\DebutePartieThread.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : DebutePartieThread
+Class Parent : Thread
+Nombre d'associations : 1
+Associations : [Exception]
+
+Nombre d'attribut total : 7
+--------------
+Nombre d'attribut de type simple : 7
+Pourcentage d'attribut de type simple : 100%
+----------
+Nombre d'attribut de référence : 0
+Pourcentage d'attribut de référence : 0%
+----------
+Nombre d'attribut public : 3
+Pourcentage d'attribut public : 42%
+----------
+Nombre d'attribut private : 4
+Pourcentage d'attribut private : 57%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\DebuterPartieMsg.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : DebuterPartieMsg
+Class Parent : AbstractMessage
+Nombre d'associations : 1
+Associations : [String]
+
+Nombre d'attribut total : 1
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 1
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 1
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\Host.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : Host
+Class Parent : 
+Nombre d'associations : 1
+Associations : [Serveur]
+
+Nombre d'attribut total : 0
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\PerteConnexionMsg.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : PerteConnexionMsg
+Class Parent : AbstractMessage
+Nombre d'associations : 1
+Associations : [String]
+
+Nombre d'attribut total : 1
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 1
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 1
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\SendScoreArrayMsg.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : SendScoreArrayMsg
+Class Parent : AbstractMessage
+Nombre d'associations : 1
+Associations : [String]
+
+Nombre d'attribut total : 1
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 1
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 1
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\ServerListener.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : ServerListener
+Class Parent : 
+Nombre d'associations : 5
+Associations : [MessageListener, HostedConnection, Message, UpdateScoreMsg, UpdatePositionMsg]
+
+Nombre d'attribut total : 0
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\Serveur.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : Serveur
+Class Parent : 
+Nombre d'associations : 14
+Associations : [Server, String, DebuterPartieMsg, PerteConnexionMsg, UpdateNBPlayersConnectedMsg, UpdateScoreMsg, SendScoreArrayMsg, UpdatePositionMsg, TerminerPartieMsg, UpdatePositionFromServerMsg, ServerListener, IOException, Message, enums]
+
+Nombre d'attribut total : 4
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 4
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 4
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\ServeurSingleton.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : ServeurSingleton
+Class Parent : 
+Nombre d'associations : 1
+Associations : [Serveur]
+
+Nombre d'attribut total : 1
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 1
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 1
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\TerminerPartieMsg.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : TerminerPartieMsg
+Class Parent : AbstractMessage
+Nombre d'associations : 2
+Associations : [enums, String]
+
+Nombre d'attribut total : 2
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 2
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 2
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\UpdateNBPlayersConnectedMsg.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : UpdateNBPlayersConnectedMsg
+Class Parent : AbstractMessage
+Nombre d'associations : 1
+Associations : [String]
+
+Nombre d'attribut total : 1
+--------------
+Nombre d'attribut de type simple : 0
+Pourcentage d'attribut de type simple : 0%
+----------
+Nombre d'attribut de référence : 1
+Pourcentage d'attribut de référence : 100%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 1
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Serveur\UpdatePositionFromServerMsg.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : UpdatePositionFromServerMsg
+Class Parent : AbstractMessage
+Nombre d'associations : 0
+Associations : []
+
+Nombre d'attribut total : 1
+--------------
+Nombre d'attribut de type simple : 1
+Pourcentage d'attribut de type simple : 100%
+----------
+Nombre d'attribut de référence : 0
+Pourcentage d'attribut de référence : 0%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 1
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
+Java Parser Version 1.7:  Reading from file C:\Users\mahmo\Dropbox\Work\UQTR\INF1018\Projet\projet-analyse-de-programme\BasicGame\src\Utilisateur\Utilisateur.java...
+Java AST Analyser beginning... 
+
+---------------------------
+
+Class Name : Utilisateur
+Class Parent : 
+Nombre d'associations : 3
+Associations : [String, enums, Utilisateur]
+
+Nombre d'attribut total : 4
+--------------
+Nombre d'attribut de type simple : 2
+Pourcentage d'attribut de type simple : 50%
+----------
+Nombre d'attribut de référence : 2
+Pourcentage d'attribut de référence : 50%
+----------
+Nombre d'attribut public : 0
+Pourcentage d'attribut public : 0%
+----------
+Nombre d'attribut private : 4
+Pourcentage d'attribut private : 100%
+----------
+Nombre d'attribut protected : 0
+Pourcentage d'attribut protected : 0%
+------------------
+
+
+Java Parser Version 1.7:  Java program parsed and analysed successfully.
